@@ -8,4 +8,6 @@ function calculateTriangleArea() {
     const triangleHightText = triangleHightInput.value;
     const hight = parseFloat(triangleHightText)
     console.log(hight)
+    const area = 0.5 * base * hight 
+    console.log(area)
 }
